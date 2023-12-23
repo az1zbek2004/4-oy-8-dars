@@ -1,7 +1,16 @@
 // FIRST EXEMPLE 
 // let arr = [21, 3, 5, 90, 3, 11, 1];
 
+// let n=+prompt("Sonni kiriting");
 // const indexSearch = (arg) => {
+//     let res;
+//    if (arg.indexOf(n)!=-1) {
+//      res=arg.indexOf(n)**2;
+//    } else {
+//      res='mavjud emas';
+//    }
+
+//    return res;
 // }
 
 // console.log(indexSearch(arr));
@@ -67,22 +76,29 @@
 
 // const tubSonmi = function(prm) {
 //     let counter=0;
-//     let sum=0;
-//     for (let i = 0; i <= prm.length; i++) {
-//        let counter1=0;
-//       for (let j = 0; j <= prm[i]; j++) {
-//         if (prm[i]%j==0) {
-//             counter1++;
-//         }        
-//       }
+//   for (let i = 1; i <= prm; i++) {
+//         if (prm%i==0) {
+//             counter++;
+//         }
+//   }
 
-//       if (counter1==2) {
-//         counter++;
-//         sum+=prm[i];
-//       }
+//   if (counter==2) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// const tubSonSum = (prm) => {
+//     let sum=0;
+//     for (const value of prm) {
+//         if (tubSonmi(value)) {
+//             sum+=value;
+//             console.log(value);
+//         }
 //     }
 
 //     return sum;
 // }
 
-// console.log(tubSonmi(arr));
+// console.log(tubSonSum(arr));
